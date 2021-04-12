@@ -167,9 +167,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "start_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data")],
-                [InlineKeyboardButton("⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")]
+                [InlineKeyboardButton("Group", url="https://t.me//MoviesFactory_Group"),
+                    InlineKeyboardButton("Channel", url="https://t.me/Movies_factory_All")],
+                [InlineKeyboardButton("🌀 Contact my Creator 🌀", url="https://t.me/YouCan_CallMe_Leo")]
             ])
 
             await query.message.edit_text(
@@ -197,9 +197,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         elif query.data == "about_data":
             await query.answer()
             keyboard = InlineKeyboardMarkup([
-                [InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data")],
-                [InlineKeyboardButton("SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")]
+                [InlineKeyboardButton("Group", url="https://t.me/MoviesFactory_Group"),
+                    InlineKeyboardButton("Channel", url="https://t.me/Movies_Factory_All")],
+                [InlineKeyboardButton("🌀 Contact my Creator 🌀", url="https://t.me/YouCan_CallMe_Leo")]
             ])
 
             await query.message.edit_text(
