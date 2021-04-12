@@ -2,8 +2,10 @@ class script(object):
 
 
     START_MSG = """ <b>Hello {}
+    
 I am an Automated Filter Bot Version 2 😇
-But I was Made to Work in Movies Factory Group :)</b>"""
+
+But I Was Made For Work in Movies Factory Group :)</b>"""
 
 
     HELP_MSG = """<b>How to use the bot??</b>
@@ -45,12 +47,12 @@ No need add each filter again!
 Bot will automatically search for your files and give links to that!
 
 
-<b>© @TroJanzHEX</b>"""
+<b>© @YouCan_CallMe_Leo</b>"""
 
 
     ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot V2</b>
     
-⭕️<b>Creater :</b> @TroJanzHEX
+⭕️<b>Creater :</b> @YouCan_CallMe_Leo
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
