@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("Group", url="https://t.me/moviesfactory_group"),
+                        InlineKeyboardButton("Channel", url="https://t.me/movies_factory_all"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "🌀 Contact my Creator 🌀", url="https://t.me/YouCan_CallMe_Leo")
                     ]
                 ]
             ),
@@ -40,12 +40,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("Group", url="https://t.me/MoviesFactory_group"),
+                        InlineKeyboardButton("Channel", url="https://t.me/movies_factory_all"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                            "🌀 Contact my Creator 🌀", url="https://t.me/YouCan_CallMe_Leo")
                     ]
                 ]
             ),
@@ -63,12 +63,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton(" Group", url="https://t.me/moviesfactory_group"),
+                        InlineKeyboardButton("Channel", url="https://t.me/movies_factory_all"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")
+                            "🌀 Contact my Creator 🌀", url="https://t.me/YouCan_CallMe_Leo")
                     ]
                 ]
             ),
